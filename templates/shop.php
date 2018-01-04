@@ -1,12 +1,10 @@
 <h1>
     Каталог товаров
 </h1>
-
 <div>
     <?php foreach ($goods as $good): ?>
         <div class="shopUnit">
             <img src="<?php echo $good['img']; ?>"/>
-
             <div class="shopUnitName">
                 <?php echo $good['name']; ?>
             </div>

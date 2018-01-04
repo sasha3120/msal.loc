@@ -24,7 +24,6 @@
 </header>
 
 <div id="content">
-
     <?php
     $goods = [
         [
@@ -68,9 +67,7 @@
         require('templates/openedProduct.php');
     }
 ?>
-
 </div>
-
 <footer>
     <div id="footerInside">
 
