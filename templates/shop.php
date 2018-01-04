@@ -1,5 +1,5 @@
 <h1>
-    Каталог товаров
+    Каталог товаров <span></span>
 </h1>
 <div>
     <?php foreach ($goods as $good): ?>
@@ -13,7 +13,7 @@
             </div>
             <div class="shopUnitPrice">
                 Цена: <?php echo $good['price']; ?>
-            </div>
+            </div> 
             <a href="index.php?page=product&id=<?php echo $good['id']; ?>" class="shopUnitMore">
                 Подробнее
             </a>

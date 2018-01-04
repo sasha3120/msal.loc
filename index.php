@@ -22,7 +22,6 @@
         </div>
     </div>
 </header>
-
 <div id="content">
     <?php
     $goods = [
@@ -78,7 +77,7 @@
             </div>
             <div class="contactWrap">
                 <img src="images/phone-call.svg" class="contactIcon">
-                8 800 555 00 00
+                8 800-555-00-00
             </div>
             <div class="contactWrap">
                 <img src="images/placeholder.svg" class="contactIcon">
