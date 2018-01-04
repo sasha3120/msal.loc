@@ -13,19 +13,15 @@
         <div id="logo"></div>
         <div id="companyName">Brand</div>
         <div id="navWrap">
-            <a href="/">
-                Главная
-            </a>
-            <a href="index.php?page=shop">
-                Магазин
-            </a>
+            <a href="/">Главная
+            <a href="index.php?page=shop">Магазин</a>
         </div>
     </div>
 </header>
 <div id="content">
     <?php
     $goods = [
-        [
+        [ 
             'id' => 1,
             'name' => 'Iphone',
             'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium',
